@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.ios.deployment_target  = '9.0'
   s.source       = { :git => "https://github.com/sepych/react-native-google-sign-in", :tag => "master" }
-  s.source_files = '**/*.{h,m}'
+  s.source_files = 'RNGoogleSignIn/**/*.{h,m}'
   s.requires_arc = true
 
   s.dependency "React"
